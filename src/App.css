@@ -251,3 +251,29 @@
     flex-direction: row;
   }
 }
+@media(max-width:600px){
+  .navbar{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    width:30rem;
+   gap:1rem
+  }
+  .characters-list{
+    display:flex;
+    justify-content:center:
+    align-items:stretch;
+    flex-direction:column;
+    width:100%
+  }
+  .character-detail{
+    display:flex;
+    justify-content:center;
+    align-items:column
+  }
+   .main{
+    display:flex;
+   flex-direction:column-reverse
+   }
+ 
+}
